@@ -1,0 +1,62 @@
+<!-- Content Header (Page header) -->
+<section class="content-header">
+  <div class="container-fluid">
+      <div class="row mb-2">
+          <div class="col-sm-6">
+              <h1>Users</h1>
+          </div>
+          <div class="col-sm-6">
+              <ol class="breadcrumb float-sm-right">
+                  <li class="breadcrumb-item"><a [routerLink]="['/app/dashboard']">Home</a></li>
+                  <li class="breadcrumb-item active">User</li>
+              </ol>
+          </div>
+      </div>
+  </div>
+  <!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+  <!-- Default box -->
+  <div class="container-fluid">
+      <div class="card">
+          <div class="card-header">
+              <h3 class="card-title">List User</h3>
+          </div>
+          <div class="card-body">
+            <div class="addbutton">
+            <button mat-raised-button color="primary" (click)="openDialog()">Add User</button>
+          </div>
+            <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>First name</th>
+                  <th>Last name</th>
+                 <th>Email</th>
+                 <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let person of employee">
+                  <td>{{ person.id }}</td>
+                  <td>{{ person.firstname }}</td>
+                  <td>{{ person.lastname }}</td>
+                  <td>{{ person.email }}</td>
+                  <td>
+                    <button mat-raised-button color="primary" (click)="EditClick(person.id)">Edit</button>
+
+
+                </tr>
+              </tbody>
+            </table>
+
+           </div>
+          <!-- /.card-body -->
+
+      </div>
+  </div>
+  <!-- /.card -->
+</section>
+<!-- /.content -->

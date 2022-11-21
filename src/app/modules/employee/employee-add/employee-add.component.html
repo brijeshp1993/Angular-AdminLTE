@@ -1,0 +1,74 @@
+<h2 mat-dialog-title>{{title}}</h2>
+<mat-dialog-content class="mat-typography">
+  <form [formGroup]="registerForm" (ngSubmit)="adduser()">
+    <div class="input-group mb-3">
+      <div class="input-group">
+        <input formControlName="firstname" type="text" class="form-control" placeholder="firstname" />
+        </div>
+      <div *ngIf="submitted && f['firstname'].invalid">
+        <small *ngIf="f['firstname'].errors && f['firstname'].errors['required']" class="text-danger">
+          firstname is required </small>
+        </div>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group">
+        <input formControlName="lastname" type="text" class="form-control" placeholder="lastname" />
+
+      </div>
+      <div *ngIf="submitted && f['lastname'].invalid">
+        <small *ngIf="f['lastname'].errors && f['lastname'].errors['required']" class="text-danger">
+          lastname is required </small>
+        </div>
+    </div>
+
+
+    <div class="input-group mb-3">
+      <div class="input-group">
+        <input formControlName="email" type="email" class="form-control" placeholder="Email" />
+
+      </div>
+      <div *ngIf="submitted && f['email'].invalid">
+        <small *ngIf="f['email'].errors && f['email'].errors['required']" class="text-danger">
+          email is required </small>
+          <small *ngIf="f['email'].errors && f['email'].errors['email']" class="text-danger">
+            email is not correct </small>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <div class="input-group">
+      <input formControlName="password" type="password" class="form-control" placeholder="Password" />
+
+      </div>
+      <div *ngIf="submitted  && f['password'].invalid">
+        <small *ngIf="f['password'].errors && f['password'].errors['required']" class="text-danger">
+          password is required </small>
+
+      </div>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group">
+      <input formControlName="retypePassword" type="password" class="form-control" placeholder="Retype password" />
+
+    </div>
+      <div *ngIf="submitted && f['retypePassword'].invalid">
+        <small *ngIf="f['retypePassword'].errors && f['retypePassword'].errors['required']" class="text-danger">retypepassword is required.
+        </small>
+        <small *ngIf="f['retypePassword'].errors && f['retypePassword'].errors['matching']" class="text-danger">retypepassword is not matching.
+        </small>
+      </div>
+    </div>
+    <div class="row">
+     <!-- /.col -->
+      <div class="col-5">
+        <button mat-raised-button color="primary">Submit</button>
+
+      </div>
+      <!-- /.col -->
+    </div>
+  </form>
+</mat-dialog-content>
+<!-- <mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Install</button>
+</mat-dialog-actions> -->

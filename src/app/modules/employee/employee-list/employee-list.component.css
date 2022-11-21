@@ -1,0 +1,14 @@
+.addbutton{
+  padding:5px;
+  float: right;
+}
+/* .mat-dialog-container
+{
+  z-index: 1000;
+}
+body:not(.layout-fixed) .main-sidebar {
+  z-index: 0 !important;
+}
+.main-sidebar {
+  z-index: 0 !important;
+} */

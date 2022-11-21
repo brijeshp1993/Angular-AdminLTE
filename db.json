@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "email": "Admin@admin.com",
+      "password": "admin",
+      "id": 1,
+      "firstname": "Admin",
+      "lastname": "Admin"
+    },
+    {
+      "email": "Brijesh@gmail.com",
+      "password": "test@123",
+      "firstname": "Brijesh",
+      "lastname": "Patel",
+      "id": 2
+    },
+    {
+      "email": "Falak@gmail.com",
+      "password": "erer",
+      "firstname": "Falak",
+      "lastname": "Patel",
+      "id": 3
+    },
+    {
+      "email": "Manoj@gmail.com",
+      "password": "erer",
+      "firstname": "Manoj",
+      "lastname": "Patil",
+      "id": 4
+    },
+    {
+      "email": "Rohan@gmail.com",
+      "password": "erer",
+      "firstname": "Rohan",
+      "lastname": "Shah",
+      "id": 5
+    },
+    {
+      "email": "Kishan@gmail.com",
+      "password": "test",
+      "firstname": "Kishan",
+      "lastname": "Vyas",
+      "id": 6
+    },
+    {
+      "email": "Vsheth@gmail.com",
+      "password": "kl",
+      "firstname": "Vyom",
+      "lastname": "Sheth",
+      "id": 7
+    },
+    {
+      "email": "Laxmi@gmail.com",
+      "password": "mnmn",
+      "firstname": "Laxmi",
+      "lastname": "Balaji",
+      "id": 8
+    },
+    {
+      "email": "Tejas@gmail.com",
+      "password": "jk",
+      "firstname": "Tejas",
+      "lastname": "Pandya",
+      "id": 9
+    },
+    {
+      "email": "Magan@gmail.com",
+      "password": "kl",
+      "firstname": "Magan",
+      "lastname": "Parikh",
+      "id": 10
+    },
+    {
+      "email": "Virat@gmail.com",
+      "password": "nn",
+      "firstname": "Virat",
+      "lastname": "Pandit",
+      "id": 11
+    },
+    {
+      "email": "Mitul@gmail.com",
+      "password": "kl",
+      "firstname": "Mitul",
+      "lastname": "Desai",
+      "id": 12
+    },
+    {
+      "firstname": "Vishal",
+      "lastname": "Joshi",
+      "email": "vishal@gmail.com",
+      "password": "test",
+      "id": 13
+    }
+  ]
+}
