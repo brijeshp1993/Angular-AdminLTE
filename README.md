@@ -4,9 +4,9 @@ If you want to start any Admin Panel or want best Angular Architecture then take
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
-Login Credentials
-Email: admin@admin.com
-Password: admin
+Login Credentials <br />
+Email: admin@admin.com <br />
+Password: admin 
 
 ## Build and Run project
 `````
@@ -20,7 +20,7 @@ Open New console and run below command to run API
 `````
 
 
-## features
+## Features
 ````
 1.  AdminLTE3 template
 2.  Admin template
@@ -48,12 +48,12 @@ Open New console and run below command to run API
 ### Dashboard page
 ![image login](https://raw.githubusercontent.com/brijeshp1993/Angular-AdminLTE/master/src/assets/img/dashboard.png)
 
-### User List page
+### User list page
 ![image login](https://raw.githubusercontent.com/brijeshp1993/Angular-AdminLTE/master/src/assets/img/user.png)
 
 ### Add/Edit user page
 ![image login](https://raw.githubusercontent.com/brijeshp1993/Angular-AdminLTE/master/src/assets/img/edit.png)
 
-### Responsive Design
+### Responsive design
 ![image login](https://raw.githubusercontent.com/brijeshp1993/Angular-AdminLTE/master/src/assets/img/Responsive.png)
 
