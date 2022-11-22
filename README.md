@@ -1,8 +1,12 @@
 # Angular 14 + AdminLTE + Dynamic Angular Architecture
 
+If you want to start any Admin Panel or want best Angular Architecture then take this repo and follow below steps,
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
-
+Login Credentials
+Email: admin@admin.com
+Password: admin
 
 ## Build and Run project
 `````
@@ -14,6 +18,7 @@ Run below commands in console
 Open New console and run below command to run API
 1.  json-server --watch db.json
 `````
+
 
 ## features
 ````
